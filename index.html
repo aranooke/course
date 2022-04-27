@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
+            
+        }
+        a {
+            
+            text-decoration: none;
+            color:white;
+            font-size: 19px;
+        }
+        header {
+            position:relative;
+            z-index:10;
+            padding-right: 20px;
+            padding-bottom:20px;
+            box-shadow:40px 0 0  black
+            
+            
+
+        }
+        .flex {
+            display:flex;
+            padding-top: 5px;
+            align-items:center;
+        }
+        .space-between {
+            justify-content: space-between;
+        }
+        .header-left a {
+           margin-left: 25px;
+        }
+        .logo {
+            margin-top: 15px;
+            margin-left: 100px;
+            margin-right: 20px;
+        }
+        .sign-up {
+            background-color:#539D98;
+            border:none;
+            padding:10px 40px;
+            border-radius:999px;
+        }
+        section {
+            position:relative;
+            top:-102px;
+            
+            
+            
+        }
+        .section h1 {
+
+        }
+        .section-image {
+            width:100%;
+        }
+        .object-cover {
+            
+        }
+        .white {
+            color:white;
+        }
+        .fs-60 {
+            font-size:60px;
+        }
+        .mx-800 {
+            max-width: 800px;
+        }
+        .mx-450 {
+            max-width:450px;
+        }
+        .content {
+            max-width: 800px;
+            margin-left:100px;
+            position:absolute;
+            top:200px;
+            
+        }
+        .fs-20 {
+            font-size:20px;
+        }
+        .page-content {
+            max-width: 1200px;
+        }
+        .get-started {
+            border:none; 
+            
+            padding:15px 40px; 
+            border-radius:6px;
+            background-color: white;
+            color:#539D98;font-weight:700 
+        }
+        @media(max-width:700px) {
+            header {
+                
+            }
+            .content { 
+                margin-left:50px;
+            }
+           .fs-60 {
+               font-size:40px;
+               font-weight:700;
+           }
+           .fs-20 {
+               font-size:17px;
+           }
+           
+        }
+    </style>
+</head>
+<body>
+    <header class="flex header-left space-between">
+        <div class="flex ">
+            <img class="logo" src="logo.svg" alt="Chris Courses">
+            <a href="">Pricing</a>
+            <a href="">Courses</a>
+            <a href="">Blog</a>
+            <a href="">Forum</a>
+        </div>
+        <div class="flex ">
+            <a href="">Login</a>
+            <a class="sign-up" href="">Sign up</a>
+        </div>
+    </header>
+    
+    <section style = "">
+        <video loop="loop" autoplay="autoplay" playsinline="" muted="muted" class="w-full h-full object-cover" style="min-height: 800px;width:100%;object-fit:cover"><source src="videos/section-video.mp4" type="video/mp4"></video>
+        <!-- <img class = "section-image" src="images/section.png" alt=""> /> --> 
+        
+    </section>
+    <div class="page-content">
+
+    
+    <div style = "  max-width:800px;" class="content">
+        <h1  style = "font-weight:700"  class="fs-60 white ">Turbocharge your <span class="" style = "color:#90CAC7">development career</span></h1>
+        <p  style = "font-weight:700;max-width:600px;padding-bottom:40px;" class="white fs-20">Chris Courses provides students and professionals a college-level web development education.</p>
+        <a class = "get-started" style = "" href="">Get started</a>
+    </div>
+</div>
+   
+    
+</body>
+</html>
